@@ -8,7 +8,7 @@ export default defineComponent({
   setup (_, { slots }) {
 
     return () => h('div', {
-      class: 'q-page-container'.
+      class: 'q-page-container'
     }, hSlot(slots.default))
   }
 })
